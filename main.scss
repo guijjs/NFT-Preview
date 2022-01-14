@@ -1,0 +1,17 @@
+@import 'assets/scss/colors';
+@import 'assets/scss/container';
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: $white;
+}
+html{
+    font-size: 62.25%;
+    body{
+        background-color: $bg--color;
+        font-size:1.25rem;
+    }
+}
