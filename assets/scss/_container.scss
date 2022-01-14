@@ -3,4 +3,68 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    .card--area{
+        background-color: $bg--card;
+        border-radius: 2.5rem;
+        padding: 2.4rem;
+        width: 40rem;
+        .nft--apresentation{
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 35rem;
+                border-radius: 1.5rem;
+                align-self: center;
+            }
+            h1{
+                margin-top: 2rem;
+            }
+        }
+        .about--us{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+            font-size: 2rem;   
+            font-weight: 300;
+            p{
+                color: $soft--blue;
+            }
+        }
+
+        .etherum--day{
+            display: flex;
+            justify-content: space-between;
+            font-size: 2rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid $line--color;
+            padding-bottom: 2.5rem;
+            .etherum--price span{
+                color: $cyan;
+            }
+            .days--remaining span{
+                color: $soft--blue;
+            }
+        }
+
+        .creator--area{
+            display: flex;
+            align-items: center;
+            img{
+                width: 15%;
+                border: 2.5px $white solid;
+                border-radius: 50%;
+            }
+            .creator--desc{
+                font-size: 1.8rem;
+                font-weight: 300;
+                margin-left: 2rem;
+                p{
+                    color: $soft--blue;
+                }
+                span{
+                    font-weight: 600;
+                    color: $white;
+                }
+            }
+        }
+    }
 }

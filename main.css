@@ -11,6 +11,97 @@
           align-items: center;
 }
 
+.container .card--area {
+  background-color: #14253d;
+  border-radius: 2.5rem;
+  padding: 2.4rem;
+  width: 40rem;
+}
+
+.container .card--area .nft--apresentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container .card--area .nft--apresentation img {
+  width: 35rem;
+  border-radius: 1.5rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.container .card--area .nft--apresentation h1 {
+  margin-top: 2rem;
+}
+
+.container .card--area .about--us {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.container .card--area .about--us p {
+  color: #8bacda;
+}
+
+.container .card--area .etherum--day {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #2f415b;
+  padding-bottom: 2.5rem;
+}
+
+.container .card--area .etherum--day .etherum--price span {
+  color: #00fff7;
+}
+
+.container .card--area .etherum--day .days--remaining span {
+  color: #8bacda;
+}
+
+.container .card--area .creator--area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .card--area .creator--area img {
+  width: 15%;
+  border: 2.5px #FFF solid;
+  border-radius: 50%;
+}
+
+.container .card--area .creator--area .creator--desc {
+  font-size: 1.8rem;
+  font-weight: 300;
+  margin-left: 2rem;
+}
+
+.container .card--area .creator--area .creator--desc p {
+  color: #8bacda;
+}
+
+.container .card--area .creator--area .creator--desc span {
+  font-weight: 600;
+  color: #FFF;
+}
+
 * {
   padding: 0;
   margin: 0;
