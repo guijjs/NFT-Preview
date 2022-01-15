@@ -1,5 +1,6 @@
 @import 'assets/scss/colors';
 @import 'assets/scss/container';
+@import 'assets/scss/small--reponsive';
 *{
     padding: 0;
     margin: 0;
@@ -10,6 +11,9 @@
 }
 html{
     font-size: 62.25%;
+    @include small--smartphone{
+        font-size: 52.25%;
+    }
     body{
         background-color: $bg--color;
         font-size:1.25rem;
