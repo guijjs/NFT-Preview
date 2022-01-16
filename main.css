@@ -38,6 +38,156 @@
   position: relative;
 }
 
+@-webkit-keyframes ta {
+  0% {
+    top: -1.5%;
+    right: 0;
+  }
+  20% {
+    top: -1.5%;
+    right: 93.5%;
+  }
+  40% {
+    top: 97%;
+    right: 93.5%;
+  }
+  60% {
+    top: 97%;
+    right: -95;
+  }
+  80% {
+    top: 97%;
+    right: 0;
+  }
+  100% {
+    top: -1.5%;
+    right: 0;
+  }
+}
+
+@keyframes ta {
+  0% {
+    top: -1.5%;
+    right: 0;
+  }
+  20% {
+    top: -1.5%;
+    right: 93.5%;
+  }
+  40% {
+    top: 97%;
+    right: 93.5%;
+  }
+  60% {
+    top: 97%;
+    right: -95;
+  }
+  80% {
+    top: 97%;
+    right: 0;
+  }
+  100% {
+    top: -1.5%;
+    right: 0;
+  }
+}
+
+@-webkit-keyframes tb {
+  0% {
+    bottom: -1.5%;
+    left: 0;
+  }
+  20% {
+    bottom: -1.5%;
+    left: 93.5%;
+  }
+  40% {
+    bottom: 97%;
+    left: 93.5%;
+  }
+  60% {
+    bottom: 97%;
+    left: -95;
+  }
+  80% {
+    bottom: 97%;
+    left: 0;
+  }
+  100% {
+    bottom: -1.5%;
+    left: 0;
+  }
+}
+
+@keyframes tb {
+  0% {
+    bottom: -1.5%;
+    left: 0;
+  }
+  20% {
+    bottom: -1.5%;
+    left: 93.5%;
+  }
+  40% {
+    bottom: 97%;
+    left: 93.5%;
+  }
+  60% {
+    bottom: 97%;
+    left: -95;
+  }
+  80% {
+    bottom: 97%;
+    left: 0;
+  }
+  100% {
+    bottom: -1.5%;
+    left: 0;
+  }
+}
+
+.container .card--area .nft--apresentation .main--image::after {
+  position: absolute;
+  content: '';
+  border: solid;
+  border-color: #BE1C4D;
+  top: -1.5%;
+  right: 0;
+  height: 5px;
+  width: 15px;
+  background-color: #D83F6D;
+  border-radius: 0.45rem;
+  -webkit-filter: drop-shadow(0 0 1.4rem #e17797);
+          filter: drop-shadow(0 0 1.4rem #e17797);
+  -webkit-animation-name: ta;
+          animation-name: ta;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.container .card--area .nft--apresentation .main--image::before {
+  position: absolute;
+  content: '';
+  border: solid;
+  border-color: #20426E;
+  bottom: -1.5%;
+  left: 0;
+  height: 5px;
+  width: 15px;
+  background-color: #1C6DD7;
+  border-radius: 0.45rem;
+  -webkit-filter: drop-shadow(0 0 1.4rem #6da7f3);
+          filter: drop-shadow(0 0 1.4rem #6da7f3);
+  -webkit-animation-name: tb;
+          animation-name: tb;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
 .container .card--area .nft--apresentation .main--image .image--aaa img {
   display: block;
   width: 35rem;

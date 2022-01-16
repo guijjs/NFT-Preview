@@ -17,6 +17,97 @@
             flex-direction: column;
             .main--image{
                 position: relative;
+                @keyframes ta {
+                    0%{
+                        top: -1.5%;
+                        right: 0;
+                    }
+                    20%{
+                        top: -1.5%;
+                        right: 93.5%;
+                    }
+
+                    40%{
+                        top: 97%;
+                        right: 93.5%;
+                    }
+                    60%{
+                        top: 97%;
+                        right: -95;
+                    }
+                    80%{
+                        top: 97%;
+                        right: 0;
+
+                    }
+                    100%{
+                        top: -1.5%;
+                        right: 0;
+                    }
+                }
+
+                @keyframes tb {
+                    0%{
+                        bottom: -1.5%;
+                        left: 0;
+                    }
+                    20%{
+                        bottom: -1.5%;
+                        left: 93.5%;
+                    }
+
+                    40%{
+                        bottom: 97%;
+                        left: 93.5%;
+                    }
+                    60%{
+                        bottom: 97%;
+                        left: -95;
+                    }
+                    80%{
+                        bottom: 97%;
+                        left: 0;
+
+                    }
+                    100%{
+                        bottom: -1.5%;
+                        left: 0;
+                    }
+                }
+                &::after{
+                    position: absolute;
+                    content: '';
+                    border: solid;
+                    border-color: #BE1C4D;
+                    top: -1.5%;
+                    right: 0;
+                    height: 5px;
+                    width: 15px;
+                    background-color: #D83F6D;
+                    border-radius: 0.45rem;
+                    filter: drop-shadow(0 0 1.4rem rgb(225, 119, 151));
+
+                    animation-name: ta;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
+                &::before{
+                    position: absolute;
+                    content: '';
+                    border: solid;
+                    border-color: #20426E;
+                    bottom: -1.5%;
+                    left: 0;
+                    height: 5px;
+                    width: 15px;
+                    background-color: #1C6DD7;
+                    border-radius: 0.45rem;
+                    filter: drop-shadow(0 0 1.4rem rgb(109, 167, 243));
+                    
+                    animation-name: tb;
+                    animation-duration: 2s;
+                    animation-iteration-count: infinite;
+                }
                 .image--aaa{
                     img{
                         display: block;
