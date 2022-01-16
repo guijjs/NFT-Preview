@@ -26,17 +26,16 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-
-<h4>PC Screenshot</h4>
+- PC Screenshot
 ![Screenshot](media/Screenshot.png)
 
-<h4>Tablet</h4>
+- Tablet Screenshot
 ![Screenshot](media/Tablet.png)
 
-<h4>Large Smartphone</h4>
+- Large Smartphone Screenshot
 ![Screenshot](media/LargeSmartphone.png)
 
-<h4>Small Smartphone</h4>
+- Small Smartphone Screenshot
 ![Screenshot](media/SmallSmartphone)
 
 
