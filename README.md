@@ -36,7 +36,7 @@ Users should be able to:
 ![Screenshot](media/LargeSmartphone.png)
 
 - Small Smartphone Screenshot
-![Screenshot](media/SmallSmartphone)
+![Screenshot](media/SmallSmartphone.png)
 
 
 
