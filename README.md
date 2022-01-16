@@ -27,7 +27,17 @@ Users should be able to:
 
 ### Screenshot
 
+<h4>PC Screenshot</h4>
 ![Screenshot](media/Screenshot.png)
+
+<h4>Tablet</h4>
+![Screenshot](media/Tablet.png)
+
+<h4>Large Smartphone</h4>
+![Screenshot](media/LargeSmartphone.png)
+
+<h4>Small Smartphone</h4>
+![Screenshot](media/SmallSmartphone)
 
 
 
