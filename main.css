@@ -208,7 +208,7 @@
 
 .container .card--area .nft--apresentation .main--image .image--hover {
   position: absolute;
-  width: 100%;
+  width: 99.5%;
   height: 100%;
   -webkit-transition: 0.70s;
   transition: 0.70s;
@@ -225,6 +225,12 @@
   top: 0;
 }
 
+@media (min-width: 320px) and (max-width: 480px) {
+  .container .card--area .nft--apresentation .main--image .image--hover {
+    width: 101%;
+  }
+}
+
 .container .card--area .nft--apresentation .main--image .image--hover img {
   opacity: 0;
   -webkit-transition: 0.70s;
@@ -236,7 +242,7 @@
   display: -ms-flexbox;
   display: flex;
   position: absolute;
-  width: 100%;
+  width: 99.5%;
   height: 100%;
   background-color: rgba(0, 255, 247, 0.25);
   top: 0;
@@ -255,6 +261,12 @@
 
 .container .card--area .nft--apresentation .main--image .image--hover:hover img {
   opacity: 100;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .container .card--area .nft--apresentation .main--image .image--hover:hover {
+    width: 101%;
+  }
 }
 
 .container .card--area .nft--apresentation h1 {
